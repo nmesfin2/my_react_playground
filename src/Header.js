@@ -53,7 +53,7 @@ export default function Header(){
     }
 
     const myLogo = (
-        <Typography variant="h6" component="h1" className={logo}>MyLogo</Typography>
+        <Typography variant="h6" component="h2" className={logo}>MyLogo</Typography>
     )
 
     const getMenuButtons = () => {
