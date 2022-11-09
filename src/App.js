@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import React from 'react'
 import './App.css';
+import Timer from './StateExample';
 // import Header from './Header';
 // import { render } from '@testing-library/react';
 
@@ -60,6 +61,10 @@ class App extends React.Component {
             {rowData}
           </tbody>
         </table>
+      </React.Fragment>
+      <br></br>
+      <React.Fragment>
+        <Timer></Timer>
       </React.Fragment>
     </React.Fragment>
     
