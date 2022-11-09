@@ -3,3 +3,10 @@
 
 - nvm install Link  
     - https://github.com/coreybutler/nvm-windows/releases
+
+- Javascript expression in JSX
+    • JavaScript expressions to be evaluated should be wrapped within curly braces as follows:
+        <h1> { Expression to be evaluated } </h1>
+    • Content which has to be displayed as is will be written in double quotes, wrapped within curly braces as follows:
+        <h1> {" Content to be displayed "} </h1>
+        
