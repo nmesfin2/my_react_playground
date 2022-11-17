@@ -18,7 +18,7 @@ class App extends React.Component {
     }
 
     let element = null;
-    let isLoggedIn = false;
+    let isLoggedIn = true;
     if(isLoggedIn){
       element = <h1>Welcome Admin</h1>
     }else{
@@ -39,8 +39,8 @@ class App extends React.Component {
       rowData.push(row);
     }
     return (<React.Fragment>
-      <h3>ReactJS;</h3>
-      <p>React is a JavaScript Library for creating user interfaces, oper souces to the world by Facebook and Instagram team in 2003. <br/> React's main foal is to make developement of UI components easy and modular. It is intended to ease the process of building <br/>large applications using data that changes over time.</p>
+      {/* <h3>ReactJS;</h3>
+      <p>React is a JavaScript Library for creating user interfaces, oper souces to the world by Facebook and Instagram team in 2003. <br/> React's main foal is to make developement of UI components easy and modular. It is intended to ease the process of building <br/>large applications using data that changes over time.</p> */}
         <React.Fragment>
         <h1 style={hightlight}>{name.firstName} {name.lastName}</h1>
       </React.Fragment>
