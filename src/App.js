@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import React from 'react'
 import './App.css';
+import Parent from './propsexample/parent';
 import Timer from './StateExample';
 // import Header from './Header';
 // import { render } from '@testing-library/react';
@@ -30,7 +31,7 @@ class App extends React.Component {
     var rowData = [];
     for(let i = 0; i < employees.length; i++){
       var row = (
-        <tr>
+        <tr key={employees[i].empId}>
           <td>{employees[i].empId}</td>
           <td>{employees[i].name}</td>
           <td>{employees[i].designation}</td>
@@ -65,6 +66,10 @@ class App extends React.Component {
       <br></br>
       <React.Fragment>
         <Timer></Timer>
+      </React.Fragment>
+      <React.Fragment>
+        <h1>Props example</h1>
+        <Parent></Parent>
       </React.Fragment>
     </React.Fragment>
     
