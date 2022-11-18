@@ -71,6 +71,7 @@ class App extends React.Component {
         <h1>Props example</h1>
         <Parent></Parent>
       </React.Fragment>
+      
     </React.Fragment>
     
     )
@@ -83,5 +84,7 @@ class App extends React.Component {
     // );
   }  
 }
+
+
 
 export default App;
